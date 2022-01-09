@@ -16,3 +16,20 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.comment{
+    border:solid;
+    border-radius: 1em;
+    margin:1em;
+    padding-left:1em;
+    padding-bottom:1em;
+}
+
+    .comment .content {
+        border: solid;
+        border-radius: 1em;
+        margin: 0.5em;
+        padding-left: 1em;
+        padding-bottom: 1em;
+    }
+ 

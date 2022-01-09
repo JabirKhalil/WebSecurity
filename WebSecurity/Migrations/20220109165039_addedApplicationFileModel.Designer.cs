@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WebSecurity.Data;
 
@@ -11,9 +12,10 @@ using WebSecurity.Data;
 namespace WebSecurity.Migrations
 {
     [DbContext(typeof(WebSecurityContext))]
-    partial class WebSecurityContextModelSnapshot : ModelSnapshot
+    [Migration("20220109165039_addedApplicationFileModel")]
+    partial class addedApplicationFileModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

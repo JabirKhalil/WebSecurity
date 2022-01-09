@@ -16,5 +16,6 @@ namespace WebSecurity.Data
         }
 
         public DbSet<Comment> Comment { get; set; }
+        public DbSet<ApplicationFile> ApplicationFiles { get; set; }
     }
 }
